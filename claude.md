@@ -24,7 +24,10 @@ templates are in ./templates/<name>.template
 whenever a script looks for data, first search under ./data, then under ./
 
 ## 7. Tools
-Tools are in ./Tools/
+Tools, including that for vision RAG, are in ./Tools/
+
+## 8. ouptut
+file output will stored in ./result
 
 ## 8. Guiding Principles for Python Tools
 - **NetCDF Standards:** Ensure all output files follow CF (Climate and Forecast) conventions. Always include metadata (units, long_name, standard_name).

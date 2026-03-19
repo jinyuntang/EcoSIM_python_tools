@@ -40,9 +40,10 @@ The output is a netCDF file with the following variables:
 5. **NetCDF Creation**: Creates a properly formatted netCDF file in ECOSIM format
 
 ## Usage
+To execute the skill, run the following command from the project root. The resulting JSON will be saved to the `./result/` directory:
 
 ```bash
-python era5_to_ecosim_converter.py --input AMF_US-Ha1_FLUXNET_ERA5_HR_1981-2021_3-5.csv --output ecosim_climate.nc
+python ./.claude/skills/ameriflux_era5_to_ecosim/era5_to_ecosim_converter.py --input data/data/AMF_US-Ha1_FLUXNET_FULLSET_1991-2020_3-5/AMF_US-Ha1_FLUXNET_ERA5_HR_1981-2021_3-5.csv --output result/ecosim_climate.nc
 ```
 
 ## Key Features
